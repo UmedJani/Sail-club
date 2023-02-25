@@ -1,0 +1,520 @@
+body {
+    margin: 0;
+    width: 1280px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    color: #163152;
+    background: #FDFDFF;
+}
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+/*header-nav*/
+.main-header-navigation { 
+    width: 1280px;
+    display: flex;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-bottom: 20px;
+}
+.logo {
+    margin-right: 471px;
+    width: 64px;
+    height: 64px;
+}
+.site-navigation  {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #163152;
+    list-style: none;   
+}
+.site-navigation-item {
+  margin-right: 30px;  
+ 
+}
+.site-navigation-item:last-child {
+    margin-right: 45px;    
+}
+.site-navigation-item a {
+    text-decoration: none;  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #163152;
+}
+.icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 55px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+/*первая секция*/
+.foto-yacht {
+    display: block;
+    width: 1170px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 120px;
+}
+.foto-yacht h1 {
+    margin-top: 0;
+    margin-left: 70px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    color: #163152;
+}
+.foto-yacht img {
+    width: 1170px;
+}
+/*вторая секция*/
+.join-team {
+    width: 1030px;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 100px;
+}
+.join-team h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    align-items: center;
+    color: #163152;
+}
+.join-team hr {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom:19px ; 
+}
+.date-1 {
+    width: 430px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #163152;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.join-team img {
+    width: 600px;
+    
+}
+.yachting {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #163152;
+}
+.date-2 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #163152;
+}
+/*третья секция*/
+.born-in-water {
+    margin-top: 0px;
+    text-align: right;
+    width: 1030px;
+    margin: 0px 125px 120px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.born-in-water h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #163152;
+} 
+.born-in-water hr {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.advanture {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #163152;   
+} 
+/*аренда*/
+.card-yacht {
+    width: 1170px;
+    margin: 0 55px 120px 55px;
+}
+.card-yacht ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.card-yacht h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.card-yacht hr {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
+
+}
+.card-yacht-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+  
+}
+.card-yacht-items {
+    list-style: none;
+    width: 310px;
+    padding: 30px;
+    background: #FDFDFF;
+    box-shadow: 0px 4px 30px rgba(22, 49, 82, 0.12); 
+}
+.card-yacht-items h3 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+   
+}
+.card-yacht-items p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #163152;
+}
+.conveniences li { 
+    margin-left: 10px;
+    
+    list-style:inside;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #163152;
+}
+.conveniences li:last-child {
+    margin-bottom: 0px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.price span {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #163152;
+}
+/*галерея*/
+.card-yacht img {
+    display: block;
+    width: 310px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.gallery {
+    width: 1170px; 
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.gallery h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #163152;
+}
+.gallery hr {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.gallery-container {
+    display: flex;
+}
+.foto-1 {
+    width: 970px;
+    margin-right: 30px;
+}
+.list-gallery {
+    margin: 0;
+    padding: 0;
+}
+.list-gallery li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 30px;
+  
+}
+.list-gallery li:last-child {
+    margin-bottom: 0;
+}
+.list-gallery li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(253, 253, 255, 0.5);
+}
+.list-gallery li.last-photo::before {
+    background-color: transparent; 
+}
+.list-gallery img {
+    display: block;
+}
+/*секция новости*/
+.news {
+    margin-top: 0;
+    margin: 0 255px 120px 255px; 
+}
+.news h2 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.news hr { 
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.news-img {
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+.news-text-1 {
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.winner {
+    margin-top: 0;
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #8693A4;
+}
+.Race-week {
+    margin-top: 0;
+    margin-bottom: 27px;
+}
+.news-text-2 {
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.team {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.team h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.team li {
+    margin-bottom: 8px;
+    margin-left: 19px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.team li:last-child {
+    margin-bottom: 0;
+}
+.news-text-3 {
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+.news-comment-1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #163152;
+}
+.news-comment-text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.news-author {
+    display: flex;
+    
+}
+.date-comment-container {
+ margin-left: 15px;
+ margin-right: 527px;
+}
+.share-icon {
+
+}
+
+.date-comment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #8693A4;
+}
+
+/*секция контакты*/
+.contacts {
+    width: 1010px;
+    margin: 0px 215px 120px 55px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #163152;
+}
+.map {
+    width: 670px; 
+}
+.contacts-container h3 {
+    width: 113px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+.contacts-container hr {
+    width: 113px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 127px;
+}
+.contacts-container p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.contacts strong {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #163152;
+}
+.social-site {
+    display: flex;
+    gap: 15px ;
+}
+.contacts a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #163152;
+    text-decoration: none;
+}
+/*footer*/
+.footer-container {
+    display: flex;
+    width: 1280px; 
+    padding: 60px 55px;
+    border-top: 1px solid rgba(22, 49, 82, 0.1);
+}
+.copyright-container {
+    width: 175px; 
+    margin-right: 125px;
+}
+.copyright-container img {
+    width: 100px;
+    height: 106px;
+    margin-bottom: 30px;
+}  
+.copyright-container a {
+   text-decoration: none;
+   color: #163152;
+} 
+
+.copyright-1 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #163152;
+}
+.copyright-2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #163152;
+}
+.footer-nav-container {
+    display: flex;
+}
+.main-footer ul {
+    width: 165px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 70px;
+}
+.main-footer h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #163152;
+}
+.footer-nav-container ul:last-child {
+    margin-right: 0;
+}
+.footer-nav-container a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #163152;
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(22, 49, 82, 0.5);
+    opacity: 0.5;
+}
+a:active {
+    color: rgba(22, 49, 82, 0.3);
+    opacity: 0.3;
+}
